@@ -15,7 +15,9 @@
     --fonte-primaria: "Krona one", sans-serif;
     --fonte-secundaria: "Montserrat", sans-serif;
 }
-
+.body{
+    background-image: url("../imagens/FlamengoFundo.png");
+}
 .imagemDeFundo{
     width: 100%;
 }
