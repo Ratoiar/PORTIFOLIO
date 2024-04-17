@@ -7,9 +7,9 @@
 }
 
 :root {
-    --cor-do-fundo: #640303;
-    --cor-da-letra: #ff0000;
-    --cor-da-letra-outro: #ffe600;
+    --cor-do-fundo: #1a1616 ;
+    --cor-da-letra: #ffffff;
+    --cor-da-letra-outro: #e20000;
     --cor-do-hover: #535353;
 
     --fonte-primaria: "Krona one", sans-serif;
@@ -20,10 +20,7 @@ body{
     background-image: url("../imagens/FlamengoFundo.png") ;
     background-size: 35%;
     background-color: var(--cor-do-fundo);
-
-
-  
-    
+        
 }
 
 .cabecalho {
@@ -71,6 +68,7 @@ body{
     width: 610px;
     flex-direction: column;
     gap: 4px;
+    color: var(--cor-da-letra);
 
 }
 
@@ -78,14 +76,14 @@ body{
 .container__texto__titulo {
     font-size: 36px;
     font-family: var(--fonte-primaria);
+    color: var(--cor-da-letra);
 }
 
 /*CONTAINER DO TEXTO DO PARAGRAFO*/
 .container__texto__paragrafo {
     font-size: 24px;
-
     font-family: var(--fonte-secundaria);
-
+    color: var(--cor-da-letra);
 }
 
 /*ALINHAMENTO DOS BOTÕES E ESTILIZAÇÃO DO TEXTO ACIMA DELES*/
@@ -105,6 +103,7 @@ body{
     font-weight: 500;
 
     font-size: 14px;
+    color: var(--cor-da-letra);
 
 }
 
@@ -133,7 +132,7 @@ body{
 
     padding: 12px;
 
-    color: var(--cor-da-letra);
+    color: var(--cor-da-letra-outro);
 
     font-family: var(--fonte-secundaria);
 
