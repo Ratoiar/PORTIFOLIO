@@ -10,7 +10,7 @@
     --cor-dos-extremos:#2b2b2b;
     --cor-do-fundo:#474747;
     --cor-da-letra:#ffffff;
-    --cor-da-letra-outro:#c45757;
+    --cor-da-letra-outro:#000000;
     --cor-do-hover:#535353;
 
     --fonte-primaria: "Krona one", sans-serif;
@@ -195,6 +195,13 @@ body{
     .container__texto {
         width: auto;
     }
+
+
+    .rodape__imagem{
+        
+        
+    }
+
 
 
 }
