@@ -7,20 +7,18 @@
 }
 
 :root {
-    --cor-do-fundo: #1a1616 ;
-    --cor-da-letra: #ffffff;
-    --cor-da-letra-outro: #e20000;
-    --cor-do-hover: #535353;
+    --cor-dos-extremos:#2b2b2b;
+    --cor-do-fundo:#474747;
+    --cor-da-letra:#ffffff;
+    --cor-da-letra-outro:#c45757;
+    --cor-do-hover:#535353;
 
     --fonte-primaria: "Krona one", sans-serif;
     --fonte-secundaria: "Montserrat", sans-serif;
 }
 
 body{
-    background-image: url("../imagens/FlamengoFundo.png") ;
-    background-size: 35%;
-    background-color: var(--cor-do-fundo);
-        
+    background-color: var(--cor-do-fundo)
 }
 
 .cabecalho {
@@ -45,6 +43,10 @@ body{
     border-radius: 0.1em;
 }
 
+.cabecalho__menu__simbolos{
+    filter: opacity(100%);
+
+}
 
 /*CONTAINER DO TEXTO DESTACADO*/
 .container__texto__titulo__destaque {
@@ -55,7 +57,7 @@ body{
 /*CONTAINER PRINCIPAL ONDE TEMOS A IMAGEM E O TEXTO*/
 .container {
     display: flex;
-    margin: 10% 10%;
+    margin: 10%;
     flex-direction: row;
     justify-content: space-between;
     gap: 50px;
@@ -145,15 +147,11 @@ body{
     background-color: var(--cor-do-hover)
 }
 
-/*FOTO DO EDNALDO PENEIRAS*/
-.imagemPrincipal {
-    border-radius: 10%
-}
+
 
 /*RODAPÉ DA PAGINA*/
 .rodape {
-
-    padding: 1%;
+    background-color: var(--cor-dos-extremos);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -165,13 +163,18 @@ body{
     color: var(--cor-da-letra);
     font-family: var(--fonte-primaria);
 }
+.rodape__imagem{
+    display: flex;
+    align-items: center;
+    padding: 2em 0 2em 0;
+    gap: 5em;
+}
 
 .desenvolvido.Texto {
     background-color: var(--cor-da-letra);
-    padding: 10px;
 }
 
-@media(max-width: 390px) {
+@media(max-width: 900px) {
 
     .cabecalhoPrincipal {
         padding: 1%;
@@ -180,6 +183,7 @@ body{
     }
 
     .cabecalho {
+        box-sizing : border-box;
         justify-content: center;
         padding: 0%;
     }
@@ -192,8 +196,5 @@ body{
         width: auto;
     }
 
-    .imagemPrincipal {
-        width: 100%;
-    }
 
 }
