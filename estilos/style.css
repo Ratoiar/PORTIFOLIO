@@ -38,11 +38,9 @@ body{
     text-decoration: none;
     font-size: 1rem;
     font-family: var(--fonte-primaria)
+    background-color: #ffffff;
 }
-.cabecalho__menu__links{
-background-color: #ffffff;
 
-}
 .cabecalho__menu:hover {
     background-color: var(--cor-do-hover);
     border-radius: 0.1em;
