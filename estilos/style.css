@@ -20,7 +20,7 @@
 body{
     background-image: url(../imagens/FlamengoFundo.png);
     background-color: var(--cor-do-fundo);
-    background-size: 70em;
+    background-size: 50em;
 }
 
 .cabecalho {
