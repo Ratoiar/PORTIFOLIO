@@ -13,7 +13,6 @@
     --cor-da-letra-outro:#000000;
     --cor-do-hover:#535353;
     --cor-do-botao:#ffffff;
-
     --fonte-primaria: "Krona one", sans-serif;
     --fonte-secundaria: "Montserrat", sans-serif;
 }
@@ -28,7 +27,7 @@ body{
     display: flex;
     gap: 3rem;
     justify-content: center;
-    padding: 1em;
+    padding: 1em 0 0 0;
 
 }
 
