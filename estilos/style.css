@@ -12,21 +12,25 @@
     --cor-da-letra:#ffffff;
     --cor-da-letra-outro:#000000;
     --cor-do-hover:#535353;
+    --cor-do-botao: #751010;
 
     --fonte-primaria: "Krona one", sans-serif;
     --fonte-secundaria: "Montserrat", sans-serif;
 }
 
 body{
+    background-image: url(../imagens/FlamengoFundo.png);
+    background-size: 300px;
     background-color: var(--cor-do-fundo)
 }
 
 .cabecalho {
     display: flex;
-    gap: 3rem;
     justify-content: center;
-    padding: 1em;
-
+    flex-direction: center;
+    gap: 1rem;
+    padding: 1em 0 0 0;
+    border: radius 1000px;
 }
 
 .cabecalho__menu {
@@ -34,12 +38,16 @@ body{
     align-items: center;
     color: var(--cor-da-letra-outro);
     text-decoration: none;
-    font-size: 1rem;
-    font-family: var(--fonte-primaria)
+    font-size: 1.2rem;
+    font-family: var(--fonte-primaria);
+    padding: 1rem;
+    background-color: var(--cor-do-botao);
+    
+
 }
 
 .cabecalho__menu:hover {
-    background-color: var(--cor-do-hover);
+    color: var(--cor-do-hover);
     border-radius: 0.1em;
 }
 
@@ -58,7 +66,6 @@ body{
 .container {
     display: flex;
     margin: 10%;
-    flex-direction: row;
     justify-content: space-between;
     gap: 50px;
 
@@ -126,7 +133,7 @@ body{
 
     text-decoration: none;
 
-    border-radius: 15px;
+    border-radius: 1em;
 
     font-size: 20px;
 
@@ -182,11 +189,7 @@ body{
         gap: 4rem;
     }
 
-    .cabecalho {
-        box-sizing : border-box;
-        justify-content: center;
-        padding: 0%;
-    }
+
 
     .container {
         flex-direction: column-reverse;
@@ -198,10 +201,12 @@ body{
 
 
     .rodape__imagem{
-        
+        box-sizing: content-box;
+        width: auto;
     }
     .rodape__texto {
         font-size: 0.5rem;
+    
 
 
 
