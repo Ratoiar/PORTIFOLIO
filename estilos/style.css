@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 :root {
+    --cor-1: #253659;
+    --cor-2: #BFCFD9;
+    --cor-3: #AAB7BF;
+    --cor-4: #8C8372;
+    --cor-5: #0D0D0D;
 
     --fonte-primaria: "Krona one", sans-serif;
     --fonte-secundaria: "Montserrat", sans-serif;
@@ -14,7 +19,7 @@ body {
 }
 
 .cabecalho {
-    display: flex;
+    display: flex; a 
     justify-content: center;
     flex-direction: center;
     gap: 1rem;
