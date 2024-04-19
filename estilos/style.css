@@ -37,7 +37,7 @@ body{
     color: var(--cor-da-letra-outro);
     text-decoration: none;
     font-size: 1rem;
-    font-family: var(--fonte-primaria)
+    font-family: var(--fonte-primaria);
     background-color: #ffffff;
 }
 
