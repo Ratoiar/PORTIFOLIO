@@ -12,6 +12,7 @@
     --cor-da-letra:#ffffff;
     --cor-da-letra-outro:#000000;
     --cor-do-hover:#535353;
+    --cor-do-botao:#ffffff;
 
     --fonte-primaria: "Krona one", sans-serif;
     --fonte-secundaria: "Montserrat", sans-serif;
@@ -38,7 +39,8 @@ body{
     text-decoration: none;
     font-size: 1rem;
     font-family: var(--fonte-primaria);
-    background-color: #ffffff;
+    background-color: var(-cor-do-botao);
+    border-radius: 10px;
 }
 
 .cabecalho__menu:hover {
@@ -46,8 +48,6 @@ body{
     border-radius: 0.1em;
 }
 
-.cabecalho__menu__simbolos{
-    filter: opacity(100%);
 
 }
 
