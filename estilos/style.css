@@ -23,6 +23,7 @@ body{
     background-image: url(../imagens/FlamengoFundo.png);
     background-size: 300px;
     background-color: var(--cor-do-fundo);
+    background-size: 20em;
 }
 
 .cabecalho {
@@ -39,23 +40,19 @@ body{
     align-items: center;
     color: var(--cor-da-letra-outro);
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: var(--fonte-primaria);
-    padding: 1rem;
-    background-color: var(--cor-do-botao);
-    
-
+    background-color: var(-cor-do-botao);
+    border-radius: 10%;
 }
+
 
 .cabecalho__menu:hover {
     color: var(--cor-do-hover);
     border-radius: 0.1em;
 }
 
-.cabecalho__menu__simbolos{
-    filter: opacity(100%);
 
-}
 
 /*CONTAINER DO TEXTO DESTACADO*/
 .container__texto__titulo__destaque {
