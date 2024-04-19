@@ -19,9 +19,10 @@
 }
 
 body{
+
     background-image: url(../imagens/FlamengoFundo.png);
     background-size: 300px;
-    background-color: var(--cor-do-fundo)
+    background-color: var(--cor-do-fundo);
 }
 
 .cabecalho {
@@ -206,8 +207,6 @@ body{
     }
     .rodape__texto {
         font-size: 0.5rem;
-    
 
-
-
+    }
 }
