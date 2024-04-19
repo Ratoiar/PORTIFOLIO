@@ -18,7 +18,8 @@
 }
 
 body{
-    background-image: url("../imagens/FlamengoFundo")
+    background-image: url("../imagens/FlamengoFundo");
+    background-color: var(--cor-do-fundo);
 }
 
 .cabecalho {
