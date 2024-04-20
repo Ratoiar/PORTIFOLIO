@@ -19,8 +19,7 @@ body {
 }
 
 .cabecalho {
-    display: flex; a 
-    justify-content: center;
+    display: flex;
     flex-direction: center;
     gap: 1rem;
     padding: 1em 0 1em 0;
