@@ -21,7 +21,7 @@
     padding: 2em 0 2em 0;
     background-color: var(--cor-5);
     justify-content: center;
-    width: 100%;
+    width: 100vw;
 }
 
 .cabecalho__menu {
