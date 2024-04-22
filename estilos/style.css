@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url(../estilos/projetos.css);
 
 :root {
-    --cor-1: #253659;
+    --cor-1: #c51d1d;
     --cor-2: #F2F2F2;
-    --cor-3: #73221A;
+    --cor-3: #5f160f;
     --cor-4: #303030;
     --cor-5: #0D0D0D;
 
@@ -21,7 +22,7 @@
     padding: 2em 0 2em 0;
     background-color: var(--cor-5);
     justify-content: center;
-    width: 100vw;
+    width: 100%;
 }
 
 .cabecalho__menu {
