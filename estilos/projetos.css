@@ -3,12 +3,9 @@
     flex-direction: column;
     margin: 10em;
     justify-content: center;
-    gap: 1em;    
+    gap: 1em;  
 }
-.card__texto-superior{
 
-
-}
 
 .card__projeto{
     display: flex;
@@ -23,3 +20,5 @@
 
 
 }
+
+  
