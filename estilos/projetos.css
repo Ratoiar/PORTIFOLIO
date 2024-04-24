@@ -28,7 +28,7 @@ body{
 .items{
     display: flex;
     gap: 0.4rem;
-    perspective: calc(var(--index) * 35);
+    perspective: calc(var(--index) * 25);
 }
 
 .item{
