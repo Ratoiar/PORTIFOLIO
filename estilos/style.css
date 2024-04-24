@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url(../estilos/projetos.css);
+@import url(../estilos/habilidade.css);
 
 :root {
     --cor-6: #181818;
@@ -8,7 +9,7 @@
     --cor-3: #29AAE3;
     --cor-4: #CCCCCC;
     --cor-5: #FFFFFF;
-    --cor-1: #3c4c7c;
+    --cor-1: #515153;
 
     --fonte-primaria: "Krona one", sans-serif;
     --fonte-secundaria: "Montserrat", sans-serif;
@@ -27,6 +28,7 @@ body{
     background-color: var(--cor-2);
     justify-content: center;
     width: 100%;
+   
 }
 
 
@@ -156,6 +158,7 @@ body{
     box-sizing: border-box;
     font-family: var(--fonte-tercearia);
     background-color: var(--cor-2);
+    box-shadow: 0 0 15px var(--cor-2);
 }
 
 
@@ -174,13 +177,14 @@ body{
     justify-content: center;
     color: var(--cor-5);
     padding: 5em 0 1em 0; 
+    
 }
 #efeitoRodape {
     display: flex;
     justify-content: center;
     position: relative;
     width: 300px;
-    box-shadow: 0 0 15px var(--cor-1);
+    
     
     position: relative;
     animation: mylastmove 2s infinite;    
