@@ -180,7 +180,8 @@ body{
     justify-content: center;
     position: relative;
     width: 300px;
-
+    box-shadow: 0 0 15px var(--cor-1);
+    
     position: relative;
     animation: mylastmove 2s infinite;    
     transition: all 0.2 ease-in-out;
