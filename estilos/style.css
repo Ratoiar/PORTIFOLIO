@@ -137,7 +137,9 @@ body{
 
     font-family: var(--fonte-secundaria);
 
-    border: 1px solid;
+    border: 2px solid;
+    
+    cursor:pointer;
 
 }
 
@@ -181,6 +183,7 @@ body{
 
     position: relative;
     animation: mylastmove 2s infinite;    
+    transition: all 0.2 ease-in-out;
 }
 
 @keyframes mylastmove {
