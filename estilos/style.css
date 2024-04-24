@@ -187,9 +187,16 @@ body{
 }
 
 @keyframes mylastmove {
-    from{color: var(--cor-5)}
-    to{color: transparent;}
-}
+   0%{color: var(--cor-5);
+    }
+
+   50%{color: transparent;
+     }
+   
+   100%{
+        color: var(--cor-5);
+     }
+ }
 
 
 
