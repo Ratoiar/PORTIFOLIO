@@ -154,7 +154,7 @@ section {
   }
 }
 
-/*
+
 @media (max-width: 750px) {
   .content {
      flex-direction: column-reverse;
@@ -164,4 +164,3 @@ section {
     margin: 10px auto 40px;
   }
 }
-*/
