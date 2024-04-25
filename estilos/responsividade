@@ -1,6 +1,6 @@
 @media (max-width: 767px) { 
 
-.cabeçalho{
+.cabecalho{
 font-size:1em;
 flex-direction: column;
 }
