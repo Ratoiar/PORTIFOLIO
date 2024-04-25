@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-@import url(../estilos/projetos.css);
+@import url(../estilos/Efeito-Ceu-Estrelado.css);
 @import url(../estilos/efeitoImgSubindo.css);
 
 :root {
@@ -9,7 +9,7 @@
     --cor-3: #29AAE3;
     --cor-4: #CCCCCC;
     --cor-5: #FFFFFF;
-    --cor-1: #272336;
+    --cor-1: #000000;
 
     --fonte-primaria: "Krona one", sans-serif;
     --fonte-secundaria: "Montserrat", sans-serif;
@@ -25,7 +25,8 @@ body{
     align-content: center;
     gap: 10rem;
     padding: 2em 0 2em 0;
-    background-color: var(--cor-2);
+    background: linear-gradient( to bottom, var(--cor-2), var(--cor-2), black);
+    
     justify-content: center;
     width: 100%;
    
@@ -162,10 +163,9 @@ body{
     width: 100%;
     box-sizing: border-box;
     font-family: var(--fonte-tercearia);
-    background-color: var(--cor-2);
-    box-shadow: 0 0 15px var(--cor-2);
-    position: absolute;
-    top: 100%;
+    background: linear-gradient( to top, var(--cor-2), black);
+
+
 }
 
 
@@ -176,6 +176,7 @@ body{
     padding: 4em 0 0 0;
     gap: 10em;
     justify-content: center;
+    
 }
 
 .rodape__texto {
@@ -194,8 +195,8 @@ body{
     
     
     position: relative;
-    animation: mylastmove 2s infinite;    
-    transition: all 0.2 ease-in-out;
+    animation: mylastmove 4s infinite;    
+    transition: all 0.2s ease-in-out;
 }
 
 @keyframes mylastmove {
