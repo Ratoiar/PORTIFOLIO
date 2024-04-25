@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url(../estilos/projetos.css);
-@import url(../estilos/habilidade.css);
+@import url(../estilos/efeitoImgSubindo.css);
 
 :root {
     --cor-6: #181818;
-    --cor-2: #110038;
+    --cor-2: #2e064e;
     --cor-3: #29AAE3;
     --cor-4: #CCCCCC;
     --cor-5: #FFFFFF;
-    --cor-1: #515153;
+    --cor-1: #272336;
 
     --fonte-primaria: "Krona one", sans-serif;
     --fonte-secundaria: "Montserrat", sans-serif;
@@ -68,6 +68,11 @@ body{
     align-items: center;
     gap: 4px;
     color: var(--cor-5);
+}
+
+#paragrafo-habilidade{
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -159,6 +164,8 @@ body{
     font-family: var(--fonte-tercearia);
     background-color: var(--cor-2);
     box-shadow: 0 0 15px var(--cor-2);
+    position: absolute;
+    top: 100%;
 }
 
 
@@ -202,48 +209,3 @@ body{
         color: var(--cor-5);
      }
  }
-
-
-
-@media(max-width: 900px) {
-
-    .cabecalho{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-       
-    }
-    .cabecalho__menu{
-        border: 1px solid ;
-    }
-    .cabecalho-Principal {
-        padding: 1%;
-        flex-direction: column-reverse;
-        gap: 4rem;
-    }
-
-    .container {
-        flex-direction: column-reverse;
-    }
-
-    .container__texto {
-        width: 50%;
-    }
-
-
-    .rodape__imagem_link{
-        box-sizing: border-box;
-    }
-
-    .rodape__texto {
-        font-size: 0.9rem;
-        font-family: var(--fonte-tercearia);
-
-    }
-    .rodape__imagem{
-        display: flex;
-        flex-direction: column;
-        padding: 1em 0 0 0;
-        gap: 50px;
-    }
-}
