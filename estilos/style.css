@@ -21,12 +21,10 @@ body{
 
 .cabecalho{
     display: flex;
-    box-sizing: border-box;
     align-content: center;
     gap: 10rem;
     padding: 2em 0 2em 0;
-    background: linear-gradient( to bottom, var(--cor-2), var(--cor-2), black);
-    
+    background: linear-gradient( to bottom, var(--cor-2), var(--cor-2), black); 
     justify-content: center;
     width: 100%;
 
@@ -211,3 +209,22 @@ body{
         color: var(--cor-5);
      }
  }
+
+
+
+
+ @media (max-width: 999px) { 
+    .cabecalho{
+    display: flex;
+    font-size:16px;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em ;
+    padding: 1em 0 5em 0;
+    }
+    .cabecalho__menu{
+
+    padding: 0 0 0 0;
+    }
+
+}
