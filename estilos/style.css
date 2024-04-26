@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url(../estilos/Efeito-Ceu-Estrelado.css);
 @import url(../estilos/efeitoImgSubindo.css);
-@import url(../estilos/responsividade.css);
+@import url(../estilos/responsividade);
 :root {
     --cor-6: #181818;
     --cor-2: #2e064e;
