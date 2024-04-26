@@ -1,6 +1,8 @@
 @media (max-width: 767px) { 
 
 .cabecalho{
-font-size:1em;
+font-size:0.5em;
 flex-direction: column;
+
+}
 }
