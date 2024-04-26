@@ -162,7 +162,6 @@ body{
 /*RODAPÉ DA PAGINA*/
 .rodape {
     width: 100%;
-    box-sizing: border-box;
     font-family: var(--fonte-tercearia);
     background: linear-gradient( to top, var(--cor-2), black);
     padding: 5em 0 1em 0;
@@ -177,7 +176,6 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    padding: 4em 0 0 0;
     gap: 5em;
     justify-content: center;
     
@@ -220,7 +218,7 @@ body{
     .cabecalho{
         display: flex;
         align-items: center;
-        flex-direction: column;
+        
         gap: 1em ;
         padding: 1em 0 6em 0;
         height: 100%;
@@ -237,4 +235,3 @@ body{
         width: 25px;
     }
 }
-
