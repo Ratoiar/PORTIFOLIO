@@ -12,7 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
   overflow: hidden;
 }
@@ -46,7 +46,8 @@
   background-repeat: no-repeat;
   background-size: 100%;
   animation: animate 25s linear infinite;
-  bottom: -150px;
+  top: 100%;
+
 
 }
 
@@ -124,7 +125,7 @@
 .circles li:nth-child(10) {
   left: 85%;
   width: 150px;
-  height: 150px;
+  height: 10;
   animation-delay: 0s;
   animation-duration: 11s;
 }
@@ -132,13 +133,13 @@
 @keyframes animate {
   0% {
     transform: translateY(0) rotate(0deg);
-    opacity: 1;
     border-radius: 0;
+    opacity: 1;
   }
 
   100% {
     transform: translateY(-1000px) rotate(720deg);
-    opacity: 0;
     border-radius: 50%;
+    opacity: 0;
   }
 }
