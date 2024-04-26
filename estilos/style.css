@@ -215,17 +215,25 @@ body{
  }
 
 
-
-
  @media (max-width: 999px) { 
     .cabecalho{
-    display: flex;
-    font-size:16px;
-    align-items: center;
-    flex-direction: column;
-    gap: 1em ;
-    padding: 1em 0 5em 0;
-    height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 1em ;
+        padding: 1em 0 6em 0;
+        height: 100%;
+
     }
 
+
+    .cabecalho__menu{
+        width: 300px;
+        flex-direction: column;
+        font-size: 10px;
+    }
+    .imagem__header{
+        width: 25px;
+    }
 }
+
