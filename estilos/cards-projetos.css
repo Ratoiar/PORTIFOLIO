@@ -31,4 +31,5 @@ body{
 
 .botao-do-projeto{
     font-size: 1em;
+    background-color: var(--cor-3);
 }
