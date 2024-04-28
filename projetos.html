@@ -7,6 +7,9 @@
     <title>Portifólio</title>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="estilos/reset.css">                
     <link rel="stylesheet" href="estilos/style.css">
 </head>
@@ -35,7 +38,28 @@
         
         <div class="sparkle-container">
         </div>
-        <!--                 EFEITO DAS IMAGENS SUBINDO               -->
+
+!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">Slide 1</div>
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+
             <div class="containerCard">
               <div class="card">
                     <img class="imagem__projetos" src="imagens/alura-midi.png" width="200" height="110" alt="">
@@ -88,6 +112,7 @@
     </footer>
     <script src="scripts/habilidade.js"></script>
     <script SRC="script/efeitoTilt.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 
 </html>
