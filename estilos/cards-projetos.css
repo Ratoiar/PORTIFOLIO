@@ -25,7 +25,7 @@ body{
     color: white;
     background-image: linear-gradient( 45deg, purple, pink);
     border-radius:20px;
-    align-itens: center;
+    
     
 
 .imagem__projetos{
@@ -34,6 +34,7 @@ body{
 
 .botao-do-projeto{
     width: 100px;
+    height: 20px;
     font-size: 1em;
     background-color: var(--cor-3);
     border-radius: 20px;
