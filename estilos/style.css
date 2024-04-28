@@ -230,8 +230,4 @@ body{
         width: 300px;
         flex-direction: column;
     }
-
-    .imagem__header{
-        width: 25px;
-    }
 }
