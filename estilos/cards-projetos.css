@@ -24,7 +24,7 @@ body{
     gap:1em;
  
     color: white;
-    background:  radial-gradient(circle, rgba(94, 44, 168, 1) 0%, rgba(94, 44, 168, 0) 70%);
+    background:  radial-gradient(circle, rgba(94, 44, 168, 1) 0%, rgba(94, 44, 168, 0) 100%);
 }
 
 .imagem__projetos{
