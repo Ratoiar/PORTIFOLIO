@@ -22,9 +22,9 @@ body{
     align-items: center;
     flex-direction: column;
     gap:1em;
- 
     color: white;
     background: purple;
+    border-radius:20px;
     
 
 .imagem__projetos{
