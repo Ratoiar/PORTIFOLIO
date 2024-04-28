@@ -1,4 +1,4 @@
-	VanillaTilt.init(document.querySelector(".your-element"), {
+	VanillaTilt.init(document.querySelector(".card"), {
 		max: 25,
 		speed: 400
 	});
