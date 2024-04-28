@@ -26,7 +26,7 @@ body{
     align-content: center;
     gap: 10rem;
     padding: 2em 0 2em 0;
-    background: linear-gradient( to bottom, var(--cor-2), var(--cor-2), black); 
+    background: transparent;
     justify-content: center;
     width: 100%;
 
