@@ -22,6 +22,7 @@ body{
     align-items: center;
     flex-direction: column;
     gap:1em;
+    align-text: center;
     color: white;
     background:  radial-gradient(circle, rgba(94, 44, 168, 1) 0%, rgba(94, 44, 168, 0) 70%);
 }
