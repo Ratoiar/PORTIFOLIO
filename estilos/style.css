@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url(../estilos/Efeito-Ceu-Estrelado.css);
 @import url(../estilos/efeitoImgSubindo.css);
@@ -13,7 +13,7 @@
     --cor-5: #FFFFFF;
     --cor-1: #000000;
 
-    --fonte-primaria: "Black Ops One", system-ui;
+    --fonte-primaria: "Jockey One", sans-serif;
     --fonte-secundaria:"Permanent Marker", cursive;
     --fonte-tercearia: "Permanent Marker", cursive;
 }
