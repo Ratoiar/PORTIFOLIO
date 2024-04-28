@@ -230,4 +230,13 @@ body{
         width: 300px;
         flex-direction: column;
     }
+
+
+    .rodape__imagem__link{
+        width: 200px;
+
+    }
+
+
+
 }
