@@ -23,6 +23,7 @@ body{
 
 .cabecalho{
     display: flex;
+    flex-wrap: wrap;
     align-content: center;
     gap: 10rem;
     padding: 2em 0 2em 0;
@@ -193,7 +194,7 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
-    width: 300px;
+    width: 200px;
     
     
     position: relative;
