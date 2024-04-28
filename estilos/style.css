@@ -20,7 +20,9 @@
 body{
     background-color: var(--cor-1);
 }
-
+main{
+    height:100vh;
+}
 .cabecalho{
     display: flex;
     flex-wrap: wrap;
