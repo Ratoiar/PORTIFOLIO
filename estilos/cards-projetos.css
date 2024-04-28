@@ -23,7 +23,7 @@ body{
     flex-direction: column;
     gap:1em;
     color: white;
-    background-color: linear-gradient( 45deg, purple, Dark-purple);
+    background-color: linear-gradient( 45deg, purple, pink);
     border-radius:20px;
     
 
