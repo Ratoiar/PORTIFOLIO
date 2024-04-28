@@ -33,6 +33,7 @@ body{
 }   
 
 .botao-do-projeto{
+    flex-wrap: wrap;
     width: 100px;
     height: 20px;
     font-size: 1em;
