@@ -16,11 +16,11 @@
     --fonte-secundaria:"Permanent Marker", cursive;
     --fonte-tercearia: "Permanent Marker", cursive;
 }
+
 body{
     background-color: var(--cor-1);
 }
 
-}
 .cabecalho{
     display: flex;
     flex-wrap: wrap;
@@ -231,12 +231,5 @@ body{
         width: 300px;
         flex-direction: column;
     }
-
-
-    .rodape__imagem__link{
-
-    }
-
-
 
 }
