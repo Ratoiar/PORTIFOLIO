@@ -312,8 +312,10 @@ padding: 0 0 5em 0;
     .container__conteudo__botoes__links{
         width: 200px;
     }
-    .container__blocos__texto__paragrafo{
-        
+    .eduardo-avatar{
+        display: flex;
+        align-itens: center;
+  
     }
  }
 
