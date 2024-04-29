@@ -54,20 +54,30 @@ body{
 @media screen and (min-width: 1000px){
 
 
-    .swiper-pagination{
-        position: initial;
-        margin: 2em 0 3em 0;
+    .swiper{
 
-    }
+color: var(--Titulo-Menu);
+font-size: 18px;
+font-weight: 700;
+justify-content: center;
+text-align: center;
+padding: 1em 0 0.5em 0;
 
-    .swiper-slide img{
-            width:100%;
+}
 
-    }
+.swiper-slide img{
+width:100%;
 
-    .swiper-button-prev, .swiper-button-next{
-                display: block;
-                padding: 0 8em;
+}
 
-    }
+.swiper-button-prev, .swiper-button-next{
+display: none;
+
+}
+
+.swiper-pagination{
+position: initial;
+padding: 0.5em 0;
+
+
 }
