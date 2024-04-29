@@ -23,24 +23,3 @@ const swiper = new Swiper('.swiper', {
 
 
 
-@media screen and (min-width: 1024px){
-
-
-    .swiper-pagination{
-        position: initial;
-        margin: 2em 0 3em 0;
-
-    }
-
-    .swiper-slide img{
-            width:60%;
-
-    }
-
-    .swiper-button-prev, .swiper-button-next{
-                display: block;
-                padding: 0 8em;
-
-    }
-}
-
