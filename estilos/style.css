@@ -1,7 +1,5 @@
 @import url(../estilos/reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url(../estilos/Efeito-Ceu-Estrelado.css);
 @import url(../estilos/cards-projetos.css);
@@ -67,6 +65,7 @@ body{
     box-sizing: border-box;
     flex-direction: column;
     align-items: center;
+    padding: 7em 0 0 0;
 
 }
 
@@ -201,8 +200,9 @@ body{
 
 .rodape__texto {
     display: flex;
-    font-size: 1rem;
+    font-size: 0.7rem;
     justify-content: center;
+    text-align: center;
     padding: 4em 0 0 0;
     color: var(--cor-branco);
     
@@ -211,7 +211,7 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
-    width: 200px;
+    width: 500px;
     
     
     position: relative;
@@ -254,6 +254,7 @@ body{
 
     .container__blocos__texto{
         flex-direction: column;
+        width: 290px;
 
     }
 
@@ -261,7 +262,7 @@ body{
         font-size: 22px;
     }
     .container__blocos__texto__paragrafo{
-        font-size: 10px;
+        font-size: 15px;
     }
 
 
