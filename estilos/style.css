@@ -1,3 +1,4 @@
+@import url(../estilos/reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
@@ -6,13 +7,13 @@
 
 
 :root {
-    --cor-6: #181818;
-    --cor-2: #2e064e;
-    --cor-3: #29AAE3;
-    --cor-4: #CCCCCC;
-    --cor-5: #FFFFFF;
-    --cor-1: #000000;
-
+    --cor-preto: #000000;
+    --cor-roxo-escuro: #2e064e;
+    --cor-azul-claro: #29AAE3;
+    --cor-branco-cinza: #CCCCCC;
+    --cor-branco: #FFFFFF;
+    --cor-preto-acinzentado: #181818;
+    
     --fonte-Titulos: "Lexend Mega", sans-serif;
     --fonte-Cursiva:"Permanent Marker", cursive;
     --fonte-Texto-Normal: "Montserrat", sans-serif;
@@ -21,7 +22,10 @@
 body{
     background-color: var(--cor-1);
 }
-
+.swiper {
+    width: 50%;
+    height: 300px;
+  }
 .cabecalho{
     display: flex;
     flex-wrap: wrap;
