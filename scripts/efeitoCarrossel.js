@@ -3,9 +3,7 @@ const swiper = new Swiper('.swiper', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
+
 
   breakpoints: {
     // when window width is >= 320px
