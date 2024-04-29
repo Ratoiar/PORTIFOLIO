@@ -29,7 +29,7 @@ body{
     display: flex;
     align-content: center;
     gap: 10rem;
-    padding: 2em 0 2em 0;
+    padding: 1em 0 2em 0;
     background: transparent;
     justify-content: center;
     width: 100%;
@@ -57,10 +57,13 @@ body{
 }
 
 /*CONTAINER PRINCIPAL ONDE TEMOS A IMAGEM E O TEXTO*/
-main{}
+main{
+    margin: 5em 5em;
+    line-height: 1.5em
+}
 .container {
     display: flex;
-    width: 100%;
+    width: 100;
     height: 100;
     box-sizing: border-box;
     flex-direction: column;
@@ -76,13 +79,14 @@ main{}
 }
 
 .container__blocos {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     align-items: center;
+    width: 100;
     gap: 10%;
     color: var(--cor-branco);
     padding: 0 0 1em 0;
 }
+
 
 #paragrafo-habilidade{
     align-items: center;
@@ -97,7 +101,11 @@ main{}
     color: var(--cor-branco-cinza);
     background-color: var(--cor-preto);
     text-align: center;
-    padding: 0 0 1em 0 ;
+    padding: 2em 0 3.5em 0 ;
+}
+
+.swiper-wrapper{
+padding: 0 0 5em 0;
 }
 
 /*CONTAINER DO TEXTO DO PARAGRAFO*/
@@ -110,7 +118,7 @@ main{}
 }
 
 .foto-eduardo-avatar{
-    width: 100%;
+    width: 90%;
     background-color: white;
     border-radius: 100%;
     
@@ -289,7 +297,23 @@ main{}
         justify-content: center;
         position: relative;
         padding: 1%;
-        width: 300px;
+        width: 100%;
     }
 
-}
+    .container__blocos {
+        grid-template-columns: 1fr;
+        flex: 1;
+        display: flex;
+    }
+    .container__blocos__texto__titulo{
+        align-items: center;
+        font-size: 19px;
+    }
+    .container__conteudo__botoes__links{
+        width: 200px;
+    }
+    .container__blocos__texto__paragrafo{
+        
+    }
+ }
+
