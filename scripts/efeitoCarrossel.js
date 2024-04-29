@@ -1,6 +1,4 @@
 const swiper = new Swiper('.swiper', {
-  spaceBetween: 100,
-  slidesPerView: 1,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -8,4 +6,23 @@ const swiper = new Swiper('.swiper', {
   scrollbar: {
     el: '.swiper-scrollbar',
   },
+
+  breakpoints: {
+    // when window width is >= 320px
+    0: {
+      slidesPerView: 1,
+      aling: center,
+    },
+    // when window width is >= 640px
+    900: {
+      slidesPerView: 3,
+      spaceBetween: 250
+    }
+  },
+  
+  
+  
+
+
 });
+

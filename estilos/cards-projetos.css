@@ -1,5 +1,6 @@
 body{
     width: 100%;
+    height: 100%;
 
 }
 
@@ -41,4 +42,12 @@ body{
     border-radius: 20px;
     text-align: center;
     cursor: pointer;
+}
+
+
+
+.swiper-button-prev, .swiper-button-next{
+    color: transparent;
+
+
 }
