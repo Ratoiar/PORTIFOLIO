@@ -16,12 +16,12 @@
     --cor-preto-acinzentado: #181818;
     
     --fonte-Titulos: "Press Start 2P", system-ui;
-    --fonte-Cursiva:"Permanent Marker", cursive;
-    --fonte-Texto-Normal: "Montserrat", sans-serif;
+    --fonte-Cursiva:"Press Start 2P", system-ui;
+    --fonte-Texto-Normal:"Press Start 2P", system-ui;
 }
 
 body{
-
+    font-family: var(--fonte-Titulos);
     background-color: var(--cor-preto);
 
 }
@@ -48,7 +48,7 @@ body{
     font-size: 1.2rem;
     gap: 0.5rem;
     font-family: var(--fonte-Titulos);
-    border-radius: 10%;
+    border-radius: 0%;
     padding: 5px;
     border-radius: 5%;
     align-items: center;
@@ -73,6 +73,7 @@ body{
 .container__blocos__texto{
     display: flex;
     flex-direction: column;
+    width: 600px;
 }
 
 .container__blocos {
@@ -95,14 +96,16 @@ body{
     font-family: var(--fonte-Titulos);
     color: var(--cor-branco-cinza);
     background-color: var(--cor-preto);
+    text-align: center;
 }
 
 /*CONTAINER DO TEXTO DO PARAGRAFO*/
 .container__blocos__texto__paragrafo {
-    font-size: 24px;
+    font-size: 20px;
     font-family: var(--fonte-Cursiva);
     color: var(--cor-branco);
     background-color: var(--cor-preto);
+    text-align:justify;
 }
 
 
@@ -255,10 +258,10 @@ body{
     }
 
     .container__blocos__texto__titulo{
-        font-size: 25px;
+        font-size: 22px;
     }
     .container__blocos__texto__paragrafo{
-        font-size: 12px;
+        font-size: 10px;
     }
 
 
