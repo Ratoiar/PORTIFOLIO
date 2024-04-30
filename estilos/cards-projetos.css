@@ -26,6 +26,7 @@ body{
     color: white;
     background-image: linear-gradient( 45deg,#00008B , #4B0082);
     border-radius:10px;
+    cursor: pointer;
 }
     
 
@@ -51,33 +52,22 @@ body{
 }
 
 
-@media screen and (min-width: 1000px){
+    @media screen and (min-width: 1000px){
 
 
-    .swiper{
+        .swiper{
 
-color: var(--Titulo-Menu);
-font-size: 18px;
-font-weight: 700;
-justify-content: center;
-text-align: center;
-padding: 1em 0 0.5em 0;
+    color: var(--Titulo-Menu);
+    font-size: 18px;
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+    padding: 1em 0 0.5em 0;
 
-}
+    }
 
-.swiper-slide img{
-width:100%;
+    .swiper-slide img{
+    width:80%;
 
-}
-
-.swiper-button-prev, .swiper-button-next{
-display: none;
-
-}
-
-.swiper-pagination{
-position: initial;
-padding: 0.5em 0;
-
-
+    }
 }
