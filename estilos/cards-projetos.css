@@ -15,7 +15,11 @@ body{
     gap: 10vh;
 
 }
+.titulo-do-projeto{
+    font-size: 16px;
+}
 .card{
+    
     width: 290px;
     height: 250px;
     display: flex;

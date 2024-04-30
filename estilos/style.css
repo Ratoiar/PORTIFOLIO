@@ -19,6 +19,7 @@
 }
 
 body{
+    box-sizing: border-box;
     font-family: var(--fonte-Titulos);
     background-color: var(--cor-preto);
 
@@ -42,7 +43,7 @@ body{
     align-items: center;
     color: var(--cor-branco);
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     gap: 0.5rem;
     font-family: var(--fonte-Titulos);
     border-radius: 0%;
@@ -59,7 +60,7 @@ body{
 /*CONTAINER PRINCIPAL ONDE TEMOS A IMAGEM E O TEXTO*/
 main{
     margin: 5em 5em;
-    line-height: 1.5em
+    line-height: 2em
 }
 .container {
     display: flex;
@@ -318,8 +319,8 @@ padding: 0 0 5em 0;
     }
     .eduardo-avatar{
         display: flex;
-        align-itens: center;
-  
+        align-items: center;
+        
     }
  }
 
