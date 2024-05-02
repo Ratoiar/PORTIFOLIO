@@ -88,7 +88,7 @@ main{
     display: flex;
     align-items: center;
     width: 100;
-    gap: 10%;
+    gap: 5px;
     color: var(--cor-branco);
     padding: 0 0 1em 0;
 }
@@ -310,8 +310,6 @@ padding: 0 0 5em 0;
     }
 
     .container__blocos {
-        grid-template-columns: 1fr;
-        flex: 1;
         display: flex;
     }
     .container__blocos__texto__titulo{
