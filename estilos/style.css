@@ -288,7 +288,10 @@ padding: 0 0 5em 0;
         font-size: 15px;
     }
 
-
+    .flex{
+        padding: 1em 0 0 0;
+        font-size: 15px;
+    }
 
     .container__conteudo__botoes__links{
         font-size: 10px;
