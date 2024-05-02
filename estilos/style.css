@@ -43,7 +43,7 @@ body{
     align-items: center;
     color: var(--cor-branco);
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 14px;
     gap: 0.5rem;
     font-family: var(--fonte-Titulos);
     border-radius: 0%;
@@ -72,6 +72,11 @@ main{
     padding: 3em 0 10em 0;
     margin: 1em 1em ;
 }
+.container__titulo{
+    font-size: 20px;
+    padding: 0 0 3em 0;
+
+}
 
 .container__blocos__texto{
     display: flex;
@@ -97,12 +102,12 @@ main{
 /*CONTAINER DO TEXTO DO TITULO*/
 
 .container__blocos__texto__titulo {
-    font-size:29px;
+    font-size:18px;
     font-family: var(--fonte-Titulos);
     color: var(--cor-branco-cinza);
     background-color: var(--cor-preto);
     text-align: center;
-    padding: 2em 0 3.5em 0 ;
+    padding: 2em 0 1.5em 0 ;
 }
 
 .swiper-wrapper{
@@ -111,7 +116,7 @@ padding: 0 0 5em 0;
 
 /*CONTAINER DO TEXTO DO PARAGRAFO*/
 .container__blocos__texto__paragrafo {
-    font-size: 20px;
+    font-size: 15px;
     font-family: var(--fonte-Cursiva);
     color: var(--cor-branco);
     background-color: var(--cor-preto);
@@ -123,7 +128,7 @@ padding: 0 0 5em 0;
     justify-content: center;
 }
 .foto-eduardo-avatar{
-    width: 90%;
+    width: 70%;
     background-color: white;
     border-radius: 100%;
     
@@ -144,7 +149,7 @@ padding: 0 0 5em 0;
 
     font-weight: 500;
 
-    font-size: 18px;
+    font-size: 20px;
     color: var(--cor-branco);
 }
 
@@ -169,7 +174,7 @@ padding: 0 0 5em 0;
 
     border-radius: 1em;
 
-    font-size: 20px;
+    font-size: 15px;
 
     font-weight: 600;
 
@@ -278,10 +283,6 @@ padding: 0 0 5em 0;
         flex-direction: column;
         width: 290px;
 
-    }
-
-    .container__blocos__texto__titulo{
-        font-size: 22px;
     }
     .container__blocos__texto__paragrafo{
         font-size: 15px;
