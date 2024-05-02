@@ -111,6 +111,7 @@ main{
 }
 
 .swiper-wrapper{
+    width: 100%;
 padding: 0 0 5em 0;
 }
 
@@ -128,7 +129,7 @@ padding: 0 0 5em 0;
     justify-content: center;
 }
 .foto-eduardo-avatar{
-    width: 70%;
+    width: 60%;
     background-color: white;
     border-radius: 100%;
     
@@ -158,8 +159,6 @@ padding: 0 0 5em 0;
 
     display: flex;
 
-    justify-content: center;
-
     gap: 12px;
 
     width: 12em;
@@ -187,10 +186,13 @@ padding: 0 0 5em 0;
     border: 2px solid;
     
     cursor:pointer;
-
+     
+    background-repeat: no-repeat;
 }
 
-
+#botao__redes{
+    padding: 0 0 0 1em;
+}
 
 /*HOVER DOS BOTÕES*/
 .container__conteudo__botoes__links:hover {
@@ -206,7 +208,7 @@ padding: 0 0 5em 0;
     flex-direction: column;
     font-family: var(--fonte-Cursiva);
     background: linear-gradient( to bottom, var(--cor-preto), var(--cor-roxo-escuro));
-    padding: 3em 0em 0em 0;
+    padding: 4em 0em 2em 0;
 
 }
 
@@ -317,7 +319,7 @@ padding: 0 0 5em 0;
         font-size: 19px;
     }
     .container__conteudo__botoes__links{
-        width: 200px;
+        width: 150px;
     }
     .eduardo-avatar{
         display: flex;
