@@ -23,9 +23,7 @@ body{
     box-sizing: border-box;
     font-family: var(--fonte-Titulos);
     background-color: var(--cor-preto);
-
 }
-
 
 .cabecalho{
     display: flex;
@@ -34,8 +32,8 @@ body{
     padding: 1em 0 2em 0;
     background: transparent;
     justify-content: center;
-    width: 100%;
-   
+    text-align: center;
+    width: 100%;  
 }
 
 .cabecalho__menu {
@@ -44,13 +42,14 @@ body{
     align-items: center;
     color: var(--cor-branco);
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     gap: 0.5rem;
     font-family: var(--fonte-Titulos);
     border-radius: 0%;
     padding: 5px;
     border-radius: 5%;
     align-items: center;
+    text-align: center;
 }
 
 .cabecalho__menu:hover {
@@ -71,11 +70,13 @@ main{
     flex-direction: column;
     align-items: center;
     padding: 3em 0 10em 0;
-    margin: 1em 1em ;
+    justify-content: space-between;
 }
 .container__titulo{
     font-size: 20px;
     padding: 0 0 3em 0;
+    justify-content: center;
+    text-align:center;
 
 }
 
@@ -96,7 +97,7 @@ main{
 
 
 #paragrafo-habilidade{
-    align-items: center;
+    align-items:     center;
     justify-content: center;
 }
 
@@ -111,10 +112,7 @@ main{
     padding: 2em 0 1.5em 0 ;
 }
 
-.swiper-wrapper{
-    width: 100%;
-padding: 0 0 5em 0;
-}
+
 
 /*CONTAINER DO TEXTO DO PARAGRAFO*/
 .container__blocos__texto__paragrafo {
@@ -261,7 +259,6 @@ padding: 0 0 5em 0;
         gap: 2em ;
         padding: 1em 0 6em 0;
         height: 100%;
-
     }
 
 
@@ -322,5 +319,6 @@ padding: 0 0 5em 0;
         align-items: center;
         
     }
+    
  }
 

@@ -69,5 +69,5 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Start blinking interval
-    setInterval(blinkSparkles, 300); // Adjust blinking frequency as needed
+    setInterval(blinkSparkles, 500); // Adjust blinking frequency as needed
 });
