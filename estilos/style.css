@@ -59,9 +59,11 @@ body{
 
 /*CONTAINER PRINCIPAL ONDE TEMOS A IMAGEM E O TEXTO*/
 main{
+    height: 100%;
     margin: 5em 5em;
     line-height: 2em
 }
+
 .container {
     display: flex;
     width: 100;
@@ -90,7 +92,7 @@ main{
     display: flex;
     align-items: center;
     width: 100;
-    gap: 5px;
+   
     color: var(--cor-branco);
     padding: 0 0 1em 0;
 }
@@ -189,11 +191,16 @@ main{
 
 #botao__redes{
     padding: 0 0 0 1em;
+    font-size: 12px;
 }
-
+.botao__redes{
+    font-size: 15px;
+    gap: 1em;
+}
 /*HOVER DOS BOTÕES*/
 .container__conteudo__botoes__links:hover {
     background-color: var(--cor-branco-cinza);
+    
 }
 
 
@@ -274,6 +281,7 @@ main{
     }
     .container__blocos{
         flex-direction: column-reverse;
+         gap: 5em;
     }
 
     .container__blocos__texto{
