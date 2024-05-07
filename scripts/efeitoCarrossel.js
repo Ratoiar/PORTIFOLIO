@@ -23,4 +23,10 @@ const swiper = new Swiper('.swiper', {
     sticky: true,
     minimumVelocity: 15,
   },
+
+effect: 'coverflow',
+  coverflowEffect: {
+    rotate: 30,
+    slideShadows: false,
+  },
 });
