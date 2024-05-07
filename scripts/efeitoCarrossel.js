@@ -29,4 +29,12 @@ const swiper = new Swiper('.swiper', {
     minimumVelocity: 100,
     enabled: true,
   },
+
+effect: 'coverflow',
+  coverflowEffect: {
+    rotate: 50,
+    slideShadows: false,
+  },
+edgeSwipeDetection: true,
+
 });
