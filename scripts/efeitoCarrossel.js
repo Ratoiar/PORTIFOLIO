@@ -26,7 +26,9 @@ const swiper = new Swiper('.swiper', {
 
 effect: 'coverflow',
   coverflowEffect: {
-    rotate: 30,
+    rotate: 50,
     slideShadows: false,
   },
+edgeSwipeDetection: true,
+
 });
